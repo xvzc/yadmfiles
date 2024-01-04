@@ -1,0 +1,29 @@
+configuration {
+    dpi: 0;
+    show-icons: true;
+    sidebar-mode: true;
+    terminal: "alacritty";
+}
+
+* {
+}
+
+window {
+}
+
+drun {
+    show-icons: false;
+}
+
+inputbar {
+}
+
+prompt {
+}
+
+//@theme "/home/jerry/.local/share/rofi/themes/nord.rasi"
+//@theme "/usr/share/rofi/themes/paper-float.rasi"
+//@theme "/home/jerry/.local/share/rofi/themes/gruvbox.rasi"
+//@theme "/home/jerry/.local/share/rofi/themes/material.rasi"
+//@theme "/home/jerry/.local/share/rofi/themes/onedark.rasi"
+@theme "/home/jerry/.local/share/rofi/themes/nord.rasi"

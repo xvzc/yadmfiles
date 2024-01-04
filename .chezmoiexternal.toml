@@ -1,0 +1,51 @@
+[".oh-my-zsh"]
+    type = "git-repo"
+    url = "https://github.com/ohmyzsh/ohmyzsh.git"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+
+[".zsh/zsh-syntax-highlighting"]
+    type = "git-repo"
+    url = "https://github.com/zsh-users/zsh-syntax-highlighting.git"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+
+[".zsh/zsh-autoswitch-virtualenv"]
+    type = "git-repo"
+    url = "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+
+[".zsh/pure"]
+    type = "git-repo"
+    url = "https://github.com/sindresorhus/pure.git"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+
+# [".fzf"]
+#     type = "git-repo"
+#     url = "https://github.com/junegunn/fzf.git"
+#     exact = true
+#     stripComponents = 1
+#     refreshPeriod = "168h"
+#     [".fzf".clone]
+#         args = ["--depth", "1"]
+
+[".config/nvim"]
+    type = "git-repo"
+    url = "https://xvzc@github.com/xvzc/nvim.git"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+
+[".config/assets"]
+    type = "git-repo"
+    url = "git@personal.github.com:xvzc/assets.git"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h"
+

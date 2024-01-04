@@ -1,0 +1,36 @@
+.config/nvim/backup
+.config/nvim/backup/**
+.config/nvim/undo
+.config/nvim/undo/**
+.config/nvim/plugin
+.config/nvim/plugin/**
+
+.config/tmux/tpm/**
+hooks/**
+
+.profile
+.secrets
+
+
+.oh-my-zsh
+Readme.md
+
+.DS_Store
+
+Brewfile
+aur_packages.txt
+
+install.mac.sh
+install.arch.sh
+
+# MacOs only
+{{ if ne .osid "darwin" }}
+{{ end }}
+
+# Arch linux only
+{{ if ne .osid "linux-arch" }}
+.config/rofi
+.config/rofi/**
+.xprofile
+.config/bspwm
+{{ end }}
